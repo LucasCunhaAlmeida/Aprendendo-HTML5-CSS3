@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /* Medidas absolutas
+                cm, mm,in(polegada), px (w3c recomenda para fonte), pt(ponto), pc(paica).
+            
+            Medidas relativas
+                em(relativo ao M maiusculo de uma letra, w3c recomenda para fonte), ex(relativo a altura x), rem, vw(largura do tamanho da sua tela), vh(altura da viewport, tela), % (porcentagem mesmo).  
+            */
+            font-size: 1.05em;
+            font-weight: normal;
+            font-style: italic;
+            text-decoration: underline;
+            /*weight(peso), widht(largura), height(altura)*/
+
+        }
+        h1,h2{
+            
+            /* Shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            font-size: 2em;
+            font-style: italic;*/
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel possimus officiis quos maxime cum eligendi assumenda eos, labore laborum sit dolore saepe ipsam aperiam? Modi laudantium cumque voluptatem ipsa porro?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sint sapiente fuga neque corporis possimus, illum atque eos recusandae soluta blanditiis error veritatis temporibus quaerat praesentium accusamus, voluptatibus nobis molestias?</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi minus dolorum beatae incidunt molestias maxime error eius impedit, fuga quos autem architecto cum natus reiciendis. Modi beatae inventore libero sequi!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In non debitis molestias sequi soluta beatae natus dolor commodi tempora! Perspiciatis doloremque odio possimus odit consequatur accusamus illo nesciunt officiis dicta!</p>
+</body>
+</html>
