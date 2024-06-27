@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id = em CSS é #
+    em HTML é class = em CSS é
+*/
+body{
+    background-color: rgba(37, 82, 16, 0.371);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+p{
+    
+}
+h1{
+    color: rgba(52, 120, 39, 0.799);
+}
+
+h1#Principal{
+    text-align: center;
+    color: black;
+    background-color: rgb(95, 190, 72);
+}
+.basico{
+    color: rgb(4, 223, 4);
+}
+
+.intermediario{
+    color: rgb(219, 187, 8);
+}
+
+.avancado{
+    color: rgb(219, 8, 8);
+}
+h2{
+    color: darkgreen;
+}
