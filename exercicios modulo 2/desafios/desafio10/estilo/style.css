@@ -80,20 +80,50 @@ main{
     padding-bottom: 20px;
 }
 
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.8em;
+    font-size: 18px;
+}
+
 main h2{
     font-family: 'Android'; 
     color: #306E24;
     margin-bottom: 15px;
-    background-image: linear-gradient(45deg, #30b31676, #335d2b13);
+    background-image: linear-gradient(45deg, #30b31685, white);
+    font-size: 22px;
 }
 
-main p{
-    padding-top: 15px;
-    padding-bottom: 15px;
+main strong{
+    color: #1a530e;
+    
+}
+
+main a{
+    text-decoration: none;
+    color: #1a530e;
+    background-color: #57a747cf;
+}
+
+main a::after{
+    content: '\1F517';
+}
+
+main a:hover{
+    text-decoration: underline;
+    text-decoration-color: #14430B;
 }
 
 main img{
     width: 100%;
+}
+
+#pequena{
+    max-width: 350px;
+    margin: auto;
+    display: block;
 }
 
 #assunto{
@@ -101,16 +131,62 @@ main img{
     color: #306E24;
     margin-bottom: 15px;
     margin-top: 20px;
+    font-size: 30px;
+}
+
+.video{
+    background-color: #14430B;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.5%;
+    position: relative;
+}
+
+.video > iframe{
+    position: absolute;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: 95%;
+}
+
+aside{
+    background-color: #8CC381;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.564);
+}
+
+aside > h3{
+    background-color: #306E24;
+    color: white;
+    margin: -20px -20px 0px -20px;
+    padding: 15px 15px;
+    text-indent: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > ul{
+    list-style-position: inside;
+    columns: 2;
+    list-style: '\2714\00a0';
+    padding-left: 10px;
 }
 
 footer{
     background-color: #14430B;
     color: white;
     text-align: center;
+    font-size: 15px;
+    padding: 5px;
 }
 
-#pequena{
-    display: block;
-    width: 50%;
-    margin: auto;
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
 }
